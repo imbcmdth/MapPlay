@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<title>Demo Map</title>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css" />
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.ie.css" />
+	<![endif]-->
+	<script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+	<script src="navteqJSON.js"></script>
+	<style>
+		#map { height: 600px; }
+		.label {
+			padding-right:5px;
+		}
+	</style>
+<body>
+	<div id="map"></div>
+	<script>
+		var validDataFields = ["name", "address", "city", "phone"];
+		function htmlizeObject(object) {
+			var html = "<div>";
+
+			validDataFields.forEach(function(key) {
+				if ( object.hasOwnProperty(key) ) {
+					html += "<div><span class='label'>" + key + "</span><span class='info'>" + object[key] + "</span></div>";
+				}
+			});
+
+			html += "</div>";
+
+			return html;
+		}
+	</script>
+	<script>
+		var map = L.map('map')
+		var xhr;
+		var mapOverlay;
+
+		map.setView([40.4182963507967175, -74.17758868255616], 17);
+
+		function fetchFeatures(e) {
+			var bounds = map.getBounds();
+			var zoom = map.getZoom();
+
+			if(zoom >= 16) {
+				if(xhr) xhr.abort();
+
+				var NWCorner = bounds.getNorthWest();
+				var SECorner = bounds.getSouthEast();
+				var url = "http://mapreporter.navteq.com/maphub/proxy"
+				url += "?lat1=" + NWCorner.lat;
+				url += "&lon1=" + NWCorner.lng;
+				url += "&lat2=" + SECorner.lat;
+				url += "&lon2=" + SECorner.lng;
+
+				xhr = new XMLHttpRequest();
+
+				xhr.onreadystatechange = function() {
+					if(xhr.readyState === 4 && xhr.status === 200) {
+						var geoData = JSON.parse(xhr.responseText);
+
+						if(mapOverlay) mapOverlay.clearLayers();
+
+						mapOverlay = L.NTJson(geoData, {
+							lineOptions: {
+								color: "red",
+								weight: zoom / 2 + 4,
+								opacity: 0
+							},
+							onEachFeature: function(json, layer) {
+
+								switch (json.type) {
+									case 'POINT':
+										layer.bindPopup( htmlizeObject(json.data) );
+										break;
+									case 'LINE':
+										layer.on("mouseover", function(e) {
+											this.setStyle({
+												opacity: 0.5
+											});
+										});
+										layer.on("mouseout", function(e) {
+											this.setStyle({
+												opacity: 0
+											});
+										});
+										break;
+								}
+							}
+						});
+
+						mapOverlay.addTo(map);
+					}
+				}
+
+				xhr.open("GET", "http://jon-carlos.com/mapdemo/proxy.php?mode=native&url=" + encodeURIComponent(url), true);
+				xhr.send();
+			}
+		}
+
+		map.on('viewreset', fetchFeatures);
+		map.on('moveend', fetchFeatures);
+
+		L.tileLayer('http://{s}.tile.cloudmade.com/a70fd845060a49a683514eb0ee5ddd3f/997/256/{z}/{x}/{y}.png', {
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+			maxZoom: 18
+		}).addTo(map);
+		fetchFeatures();
+//		L.NTJson(demo_data).addTo(map);
+	</script>

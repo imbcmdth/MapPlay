@@ -1,0 +1,729 @@
+var demo_data = [{
+	"id": 21902403,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.417855932203,
+	"longitude": -74.182666666666,
+	"locations": [
+		{"latitude": 40.417822033898,"longitude": -74.182296296296},
+		{"latitude": 40.417855932203,"longitude": -74.182666666666}
+	]
+},{
+	"id": 21902504,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418542372881,
+	"longitude": -74.173753086419,
+	"locations": [
+		{"latitude": 40.41763559322, "longitude": -74.174086419752},
+		{"latitude": 40.418542372881, "longitude": -74.173753086419}
+	]
+},{
+	"id": 21902505,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418966101695,
+	"longitude": -74.173827160493,
+	"locations": [
+		{"latitude": 40.418542372881, "longitude": -74.173753086419},
+		{"latitude": 40.41870338983, "longitude": -74.173777777777},
+		{"latitude": 40.418966101695, "longitude": -74.173827160493}
+	]
+},{
+	"id": 21902506,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418805084746,
+	"longitude": -74.173296296296,
+	"locations": [
+		{"latitude": 40.418542372881, "longitude": -74.173753086419},
+		{"latitude": 40.418686440678, "longitude": -74.173567901234},
+		{"latitude": 40.418805084746, "longitude": -74.173296296296}
+	]
+},{
+	"id": 21902507,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.421254237288,
+	"longitude": -74.172172839506,
+	"locations": [
+		{"latitude": 40.418805084746, "longitude": -74.173296296296},
+		{"latitude": 40.418838983051, "longitude": -74.173024691357},
+		{"latitude": 40.418881355932, "longitude": -74.172962962962},
+		{"latitude": 40.419, "longitude": -74.172876543209},
+		{"latitude": 40.419144067797, "longitude": -74.172814814814},
+		{"latitude": 40.421254237288, "longitude": -74.172172839506}
+	]
+},{
+	"id": 21902508,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.421440677966,
+	"longitude": -74.173148148147,
+	"locations": [
+		{"latitude": 40.418966101695, "longitude": -74.173827160493},
+		{"latitude": 40.41913559322, "longitude": -74.173876543209},
+		{"latitude": 40.419313559322, "longitude": -74.173876543209},
+		{"latitude": 40.419881355932, "longitude": -74.173567901234},
+		{"latitude": 40.420110169491, "longitude": -74.173469135802},
+		{"latitude": 40.421440677966, "longitude": -74.173148148147}
+	]
+},{
+	"id": 21902590,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.41913559322,
+	"longitude": -74.177691358024,
+	"locations": [
+		{"latitude": 40.418406779661, "longitude": -74.177814814814},
+		{"latitude": 40.41913559322, "longitude": -74.177691358024}
+	]
+},{
+	"id": 21902591,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.41913559322,
+	"longitude": -74.177691358024,
+	"locations": [
+		{"latitude": 40.418771186441, "longitude": -74.179506172839},
+		{"latitude": 40.418686440678, "longitude": -74.179098765431},
+		{"latitude": 40.418669491525, "longitude": -74.178913580246},
+		{"latitude": 40.418686440678, "longitude": -74.178814814814},
+		{"latitude": 40.41870338983, "longitude": -74.178716049382},
+		{"latitude": 40.418923728814, "longitude": -74.17824691358},
+		{"latitude": 40.419042372881, "longitude": -74.177827160493},
+		{"latitude": 40.41913559322, "longitude": -74.177691358024}
+	]
+},{
+	"id": 21902603,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.420669491525,
+	"longitude": -74.17749382716,
+	"locations": [
+		{"latitude": 40.41913559322, "longitude": -74.177691358024},
+		{"latitude": 40.420669491525, "longitude": -74.17749382716}
+	]
+},{
+	"id": 21902616,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.420423728814,
+	"longitude": -74.183049382715,
+	"locations": [
+		{"latitude": 40.418771186441, "longitude": -74.179506172839},
+		{"latitude": 40.419644067797, "longitude": -74.18098765432},
+		{"latitude": 40.41986440678, "longitude": -74.181419753086},
+		{"latitude": 40.420033898305, "longitude": -74.181827160493},
+		{"latitude": 40.42013559322, "longitude": -74.18211111111},
+		{"latitude": 40.420423728814, "longitude": -74.183049382715}
+	]
+},{
+	"id": 21902941,
+	"type": "LINE",
+	"data": {
+		"fc": 4,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418406779661,
+	"longitude": -74.177814814814,
+	"locations": [
+		{"latitude": 40.418050847458, "longitude": -74.177950617283},
+		{"latitude": 40.418338983051, "longitude": -74.178358024691},
+		{"latitude": 40.418423728814, "longitude": -74.178432098765},
+		{"latitude": 40.418474576271, "longitude": -74.178456790123},
+		{"latitude": 40.418584745763, "longitude": -74.178469135802},
+		{"latitude": 40.418694915254, "longitude": -74.178444444444},
+		{"latitude": 40.418779661017, "longitude": -74.178358024691},
+		{"latitude": 40.418855932203, "longitude": -74.178209876543},
+		{"latitude": 40.41886440678, "longitude": -74.178074074073},
+		{"latitude": 40.418822033898, "longitude": -74.177925925925},
+		{"latitude": 40.418728813559, "longitude": -74.17786419753},
+		{"latitude": 40.418406779661, "longitude": -74.177814814814}
+	]
+},{
+	"id": 21902942,
+	"type": "LINE",
+	"data": {
+		"fc": 4,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418406779661,
+	"longitude": -74.177814814814,
+	"locations": [
+		{"latitude": 40.418025423729, "longitude": -74.177851851851},
+		{"latitude": 40.418406779661, "longitude": -74.177814814814}
+	]
+},{
+	"id": 21902943,
+	"type": "LINE",
+	"data": {
+		"fc": 4,
+		"speedcat": 5,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418025423729,
+	"longitude": -74.177851851851,
+	"locations": [
+		{"latitude": 40.417711864407, "longitude": -74.177876543209},
+		{"latitude": 40.418025423729, "longitude": -74.177851851851}
+	]
+},{
+	"id": 21902945,
+	"type": "LINE",
+	"data": {
+		"fc": 4,
+		"speedcat": 5,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.417711864407,
+	"longitude": -74.177876543209,
+	"locations": [
+		{"latitude": 40.416838983051, "longitude": -74.178197530864},
+		{"latitude": 40.417, "longitude": -74.17811111111},
+		{"latitude": 40.417322033898, "longitude": -74.177975308641},
+		{"latitude": 40.417711864407, "longitude": -74.177876543209}
+	]
+},{
+	"id": 21902946,
+	"type": "LINE",
+	"data": {
+		"fc": 4,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418,
+	"longitude": -74.177716049382,
+	"locations": [
+		{"latitude": 40.417711864407, "longitude": -74.177876543209},
+		{"latitude": 40.417355932203, "longitude": -74.17786419753},
+		{"latitude": 40.417254237288, "longitude": -74.177765432098},
+		{"latitude": 40.41720338983, "longitude": -74.177654320987},
+		{"latitude": 40.417186440678, "longitude": -74.177530864197},
+		{"latitude": 40.417194915254, "longitude": -74.177419753086},
+		{"latitude": 40.417220338983, "longitude": -74.177308641975},
+		{"latitude": 40.417271186441, "longitude": -74.177234567901},
+		{"latitude": 40.417355932203, "longitude": -74.177148148147},
+		{"latitude": 40.417474576271, "longitude": -74.17711111111},
+		{"latitude": 40.417584745763, "longitude": -74.177123456789},
+		{"latitude": 40.417694915254, "longitude": -74.177197530864},
+		{"latitude": 40.417771186441, "longitude": -74.177308641975},
+		{"latitude": 40.418, "longitude": -74.177716049382}
+	]
+},{
+	"id": 21902947,
+	"type": "LINE",
+	"data": {
+		"fc": 4,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.417805084746,
+	"longitude": -74.176135802468,
+	"locations": [
+		{"latitude": 40.416838983051, "longitude": -74.178197530864},
+		{"latitude": 40.417016949152, "longitude": -74.178024691357},
+		{"latitude": 40.417084745763, "longitude": -74.177925925925},
+		{"latitude": 40.417101694915, "longitude": -74.177851851851},
+		{"latitude": 40.417110169491, "longitude": -74.177777777777},
+		{"latitude": 40.417118644068, "longitude": -74.17749382716},
+		{"latitude": 40.417144067797, "longitude": -74.177407407407},
+		{"latitude": 40.417186440678, "longitude": -74.177259259259},
+		{"latitude": 40.417228813559, "longitude": -74.177160493826},
+		{"latitude": 40.417296610169, "longitude": -74.177086419752},
+		{"latitude": 40.41736440678, "longitude": -74.177037037036},
+		{"latitude": 40.417449152542, "longitude": -74.17698765432},
+		{"latitude": 40.417533898305, "longitude": -74.176950617283},
+		{"latitude": 40.417601694915, "longitude": -74.176901234567},
+		{"latitude": 40.417644067797, "longitude": -74.176851851851},
+		{"latitude": 40.417686440678, "longitude": -74.176802469135},
+		{"latitude": 40.41770338983, "longitude": -74.17674074074},
+		{"latitude": 40.417745762712, "longitude": -74.176543209876},
+		{"latitude": 40.417805084746, "longitude": -74.176135802468}
+	]
+},{
+	"id": 21902952,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.417805084746,
+	"longitude": -74.176135802468,
+	"locations": [
+		{"latitude": 40.41763559322, "longitude": -74.174086419752},
+		{"latitude": 40.417711864407, "longitude": -74.174604938271},
+		{"latitude": 40.417745762712, "longitude": -74.174901234567},
+		{"latitude": 40.417805084746, "longitude": -74.176135802468}
+	]
+},{
+	"id": 21902953,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418,
+	"longitude": -74.177716049382,
+	"locations": [
+		{"latitude": 40.417805084746, "longitude": -74.176135802468},
+		{"latitude": 40.417838983051, "longitude": -74.176827160493},
+		{"latitude": 40.417923728813, "longitude": -74.177320987654},
+		{"latitude": 40.418, "longitude": -74.177716049382}
+	]
+},{
+	"id": 21902954,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418025423729,
+	"longitude": -74.177851851851,
+	"locations": [
+		{"latitude": 40.418, "longitude": -74.177716049382},
+		{"latitude": 40.418025423729, "longitude": -74.177851851851}
+	]
+},{
+	"id": 21902955,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418050847458,
+	"longitude": -74.177950617283,
+	"locations": [
+		{"latitude": 40.418025423729, "longitude": -74.177851851851},
+		{"latitude": 40.418050847458, "longitude": -74.177950617283}
+	]
+},{
+	"id": 21902956,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418771186441,
+	"longitude": -74.179506172839,
+	"locations": [
+		{"latitude": 40.418050847458, "longitude": -74.177950617283},
+		{"latitude": 40.418194915254, "longitude": -74.178358024691},
+		{"latitude": 40.418449152542, "longitude": -74.178938271604},
+		{"latitude": 40.418771186441, "longitude": -74.179506172839}
+	]
+},{
+	"id": 21928257,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.418966101695,
+	"longitude": -74.173827160493,
+	"locations": [
+		{"latitude": 40.418805084746, "longitude": -74.173296296296},
+		{"latitude": 40.418805084746, "longitude": -74.173444444444},
+		{"latitude": 40.418881355932, "longitude": -74.173703703703},
+		{"latitude": 40.418966101695, "longitude": -74.173827160493}
+	]
+},{
+	"id": 108377230,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.417601694915,
+	"longitude": -74.173913580246,
+	"locations": [
+		{"latitude": 40.417169491525, "longitude": -74.17161728395},
+		{"latitude": 40.417279661017, "longitude": -74.172333333333},
+		{"latitude": 40.417601694915, "longitude": -74.173913580246}
+	]
+},{
+	"id": 108377231,
+	"type": "LINE",
+	"data": {
+		"fc": 3,
+		"speedcat": 4,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.41763559322,
+	"longitude": -74.174086419752,
+	"locations": [
+		{"latitude": 40.417601694915, "longitude": -74.173913580246},
+		{"latitude": 40.41763559322, "longitude": -74.174086419752}
+	]
+},{
+	"id": 108377235,
+	"type": "LINE",
+	"data": {
+		"fc": 5,
+		"speedcat": 6,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.417601694915,
+	"longitude": -74.173913580246,
+	"locations": [
+		{"latitude": 40.415991525424, "longitude": -74.174407407407},
+		{"latitude": 40.417601694915, "longitude": -74.173913580246}
+	]
+},{
+	"id": 709183099,
+	"type": "LINE",
+	"data": {
+		"fc": 4,
+		"speedcat": 5,
+		"dir": "",
+		"speedlimit": "",
+		"revspeedlimit": "",
+		"right": "",
+		"left": ""
+	},
+	"latitude": 40.416838983051,
+	"longitude": -74.178197530864,
+	"locations": [
+		{"latitude": 40.416330508475, "longitude": -74.17849382716},
+		{"latitude": 40.416466101695, "longitude": -74.178407407407},
+		{"latitude": 40.416838983051, "longitude": -74.178197530864}
+	]
+},{
+	"id": 37352989,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 2031300",
+		"name": "Gulf",
+		"address": "3039 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT83",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 130
+	},
+	"latitude": 40.419618644068,
+	"longitude": -74.180901234567,
+	"locations": [
+		{"latitude": 40.419618644068, "longitude": -74.180901234567}
+	]
+},{
+	"id": 34414070,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 2031300",
+		"name": "Hazlet Auto Service Center",
+		"address": "3039 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 132
+	},
+	"latitude": 40.419618644068,
+	"longitude": -74.180901234567,
+	"locations": [
+		{"latitude": 40.419618644068, "longitude": -74.180901234567}
+	]
+},{
+	"id": 41512593,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 3359360",
+		"name": "Adelphi Restaurant & Diner",
+		"address": "2973 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 144
+	},
+	"latitude": 40.417813559322,
+	"longitude": -74.175901234567,
+	"locations": [
+		{"latitude": 40.417813559322, "longitude": -74.175901234567}
+	]
+},{
+	"id": 37339372,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 7392151",
+		"name": "Hazlet Pizza & Italian Restaurant",
+		"address": "3041 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 144
+	},
+	"latitude": 40.419644067797,
+	"longitude": -74.180950617283,
+	"locations": [
+		{"latitude": 40.419644067797, "longitude": -74.180950617283}
+	]
+},{
+	"id": 37313223,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 8889696",
+		"name": "China Buffet",
+		"address": "3005 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT1510",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 144
+	},
+	"latitude": 40.419144067797,
+	"longitude": -74.180086419752,
+	"locations": [
+		{"latitude": 40.419144067797, "longitude": -74.180086419752}
+	]
+},{
+	"id": 17021127,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 8887800",
+		"name": "Tgi Friday's",
+		"address": "3054 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT1610",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 144
+	},
+	"latitude": 40.419118644068,
+	"longitude": -74.180148148147,
+	"locations": [
+		{"latitude": 40.419118644068, "longitude": -74.180148148147}
+	]
+},{
+	"id": 41493511,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 2643310",
+		"name": "Hazlet Pharmacy",
+		"address": "2874 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 1005
+	},
+	"latitude": 40.417338983051,
+	"longitude": -74.172716049382,
+	"locations": [
+		{"latitude": 40.417338983051, "longitude": -74.172716049382}
+	]
+},{
+	"id": 1011124368,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 4979600",
+		"name": "Walgreens",
+		"address": "2995 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT1462",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 1005
+	},
+	"latitude": 40.419,
+	"longitude": -74.179851851851,
+	"locations": [
+		{"latitude": 40.419, "longitude": -74.179851851851}
+	]
+},{
+	"id": 41495212,
+	"type": "POINT",
+	"data": {
+		"phone": "+1 (732) 7392302",
+		"name": "Pathmark",
+		"address": "3020 RT-35",
+		"city": "07730 Hazlet Twp",
+		"addition": "",
+		"chain": "NT4892",
+		"rlink": "",
+		"side": "",
+		"link": "",
+		"number": "",
+		"type": 1005
+	},
+	"latitude": 40.419381355932,
+	"longitude": -74.180592592592,
+	"locations": [
+		{"latitude": 40.419381355932, "longitude": -74.180592592592}
+	]
+}];
